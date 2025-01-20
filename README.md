@@ -18,7 +18,6 @@ The project is implemented in **Java** using an object-oriented approach.
 3. **CuentaCorriente** (current account):
    - Supports overdrafts (allows spending beyond the account balance and records debt).
 
-# Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/cuenta-bancaria.git
+## Author
+Oksana Muzalevska
+[![GitHub](https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=GitHub&logoColor=fff)](https://github.com/omuzalevska)
