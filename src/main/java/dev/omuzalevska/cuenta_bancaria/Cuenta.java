@@ -33,7 +33,11 @@ public class Cuenta {
 
     public void calcularInteres() {
         float interesMensual = saldo * (tasaAnual / 12 / 100);
-        saldo += interesMensual;
+        System.out.println("Interés mensual: " + interesMensual);
+        
+        saldo += Math.round(interesMensual * 100.0) / 100.0; // Округлення до двох 
+        System.out.println("saldo: " + saldo);
+
     }
 
     public void extractoMensual() {

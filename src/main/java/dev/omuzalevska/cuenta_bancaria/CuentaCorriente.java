@@ -1,7 +1,8 @@
 package dev.omuzalevska.cuenta_bancaria;
 
 class CuentaCorriente extends Cuenta {
-    private float sobregiro;
+    
+    float sobregiro;
 
     public CuentaCorriente(float saldoInicial, float tasaAnual) {
         super(saldoInicial, tasaAnual);
